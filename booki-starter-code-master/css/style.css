@@ -389,6 +389,8 @@ footer {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
 
+    /****** Info group ***********/
+
     .filter-bar {
         width: 100%;
     }
@@ -401,17 +403,44 @@ footer {
         font-size: 15px;
     }
 
+    /****** Main cards ***********/
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
 
     .hebergements {
         width: 100%;
+        height: 611px;
+    }
+
+    .grid-hebergements {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 207px 207px;
+        width: 100%;
+    }
+
+    .hebergements-images {
+        width: 100%;
     }
 
     .cards {
-        width: 268px;
+        width: 100%;
     }
+
+    .hebergements h2 {
+        font-size: 22px;
+    }
+
+    .hebergements h3 {
+        font-size: 15px;
+    }
+
+    .hebergements p {
+        font-size: 14px;
+    }
+
+    /****** Populaires ***********/
 
     .populaires {
         width: 100%;
