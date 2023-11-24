@@ -167,7 +167,7 @@ h2 {
 /****** Main cards ***********/
 
 .hebergements {
-    width: 65%;
+    width: 871px;
 }
 
 .hebergements h2 {
@@ -388,12 +388,29 @@ footer {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
+    .filter-bar {
+        width: 100%;
+    }
+
+    .filter {
+        padding: 4px 10px 4px 10px;
+    }
+
+    .filter p {
+        font-size: 15px;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
 
     .hebergements {
         width: 100%;
+    }
+
+    .cards {
+        width: 268px;
     }
 
     .populaires {
