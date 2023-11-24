@@ -333,6 +333,39 @@ a {
 }
 
 
+/****** Activités Marseille ***********/
+
+.marseille {
+    margin: 30px 30px 30px 30px;
+}
+
+.marseille h2 {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 30px 0px 30px 0px;
+}
+
+.grid-activities {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    width: 1280px;
+    justify-content: center;
+}
+
+.activities {
+    height: 439px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
+}
+
+.marseille-images {
+    width: 297.5px;
+    height: 380px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
