@@ -464,9 +464,44 @@ footer {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    /****** Activités Marseille ***********/
+
+    .grid-activities {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 270px;
+        width: 864px;
+        gap: 30px;
+    }
+
+    .activities {
+        height: 270px;
+        width: 193px;
+    }
+
+    .marseille-images {
+        width: 193px;
+        height: 200px;
+    }
+
+    .marseille h3 {
+        font-size: 16px;
+    }
+
+     /****** Footer ***********/
+
+     footer {
+        width: 924px;
+    }
+
+    .column-footer {
+        width: 288px;
+    }
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
-    /* ... */
+@media (max-width: 768px) {
+    
+    /* Header */
+
 }
