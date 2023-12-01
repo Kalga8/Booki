@@ -393,6 +393,18 @@ footer {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
 
+    body {
+        max-width: 1024px;
+        padding: 0px 50px;
+    }
+    
+    /****** Header ***********/
+
+    header {
+        width: 1024px;
+        gap: 518px;
+    }
+
     /****** Info group ***********/
 
     .filter-bar {
@@ -414,7 +426,7 @@ footer {
     }
 
     .hebergements {
-        width: 100%;
+        width: 924px;
         height: 611px;
     }
 
@@ -447,7 +459,7 @@ footer {
     /****** Populaires ***********/
 
     .populaires {
-        width: 100%;
+        width: 924px;
         margin-top: 50px;
     }
 
