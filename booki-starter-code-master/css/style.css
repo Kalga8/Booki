@@ -8,6 +8,18 @@
     font-family: 'Raleway', sans-serif;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
 /****** Header ***********/
 
 header {
@@ -217,7 +229,6 @@ h2 {
     border: none;
 }
 
-
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
@@ -226,18 +237,6 @@ h2 {
 
 .fa-solid {
     color: var(--main-color);
-}
-
-body {
-    display: flex;
-    justify-content: center;
-}
-
-.main-container {
-    width: 100%;
-    max-width: 1440px;
-    padding: 0 50px;
-    box-sizing: border-box;
 }
 
 a {
@@ -511,7 +510,6 @@ footer {
         flex-direction: column;
         padding-bottom: 30px;
         justify-content: center;
-        align-items: center;
     }
     
     .logo {
