@@ -151,16 +151,22 @@ h2 {
 
 .filter {
     display: flex;
-    flex-direction: row;
     width: auto;
-    height: 40px;
+    height: 5.5vh;
     justify-content: center;
     align-items: center;
     gap: 10px;
     border: solid 2px #F2F2F2;
     border-radius: 25px;
     padding : 4px 19px 4px 19px;
+    background-color: transparent;
 }
+
+    .filter a {
+        display: flex;
+        flex-direction: row;
+        gap: 1vh;
+    }
 
     .filter p {
         font-size: 17px;

@@ -33,33 +33,43 @@
         <p> En plein centre-ville ou en pleine nature </p>
         </div>
 
-        <div class="search-bar">
+        <form class="search-bar" id="searchForm"> <!--Id Pour utilisation ultérieure de JavaScript (onclick=action)-->
             <img src="../booki-starter-code-master/images/icons/localisation.svg" alt="icon-localisation">
             <input type="search" placeholder="Marseille, France">
             <button> Rechercher </button>
-        </div>
+        </form>
 
         <div class="filter-bar">
-            <h2> Filtres </h2>
-                <div class="filter">
+            <h4> Filtres </h4>
+            <button class="filter">
+                <a href="">
                     <img src="../booki-starter-code-master/images/icons/bank_note.svg" alt="icon-bank-note">
                     <p> Économique </p>
-                </div>
+                </a>
+            </button>
 
-                <div class="filter">
+            
+            <button class="filter">
+                <a href="">
                     <img src="../booki-starter-code-master/images/icons/family.svg" alt="icon-family">
                     <p> Familial </p>
-                </div>
+                </a>
+            </button>
+            
 
-                <div class="filter">
+            <button class="filter">
+                <a href="">
                     <img src="../booki-starter-code-master/images/icons/heart.svg" alt="icon-heart">
                     <p> Romantique </p>
-                </div>
+                </a>
+            </button>
 
-                <div class="filter">
+            <button class="filter">
+                <a href="">
                     <img src="../booki-starter-code-master/images/icons/flame.svg" alt="icon-flame">
                     <p> Nos pépites </p>
-                </div>
+                </a>
+            </button>
         </div>
 
         <div class="info-bar">
@@ -283,20 +293,20 @@
 
     <footer>
         <div class="column-footer">
-            <h3> À propos </h3>
+            <h4> À propos </h4>
             <a href="#"> Fonctionnement du site </a>
             <a href="#"> Conditions générales </a>
             <a href="#"> Données et confidentialité </a>
         </div>
 
         <div class="column-footer">
-            <h3> Nos hébergements </h3>
+            <h4> Nos hébergements </h4>
             <a href="#"> Charte qualité </a>
             <a href="#"> Proposer votre hôtel </a>
         </div>
 
         <div class="column-footer">
-            <h3> Assistance </h3>
+            <h4> Assistance </h4>
             <a href="#"> Centre d'aide </a>
             <a href="#"> Nous contacter </a>
         </div>
