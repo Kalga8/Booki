@@ -348,11 +348,11 @@ a {
 
 /****** Activités Marseille ***********/
 
-.marseille {
+.activities {
     margin: 30px 30px 30px 30px;
 }
 
-.marseille h2 {
+.activities h2 {
     font-size: 22px;
     font-weight: bold;
     padding: 30px 0px 30px 0px;
@@ -366,7 +366,7 @@ a {
     justify-content: center;
 }
 
-.activities {
+.activity {
     height: 439px;
     border-radius: 20px;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
