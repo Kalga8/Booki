@@ -33,16 +33,21 @@
         <p> En plein centre-ville ou en pleine nature </p>
         </div>
 
-        <form class="search-bar" id="searchForm"> <!--Id Pour utilisation ultérieure de JavaScript (onclick=action)-->
+        <form class="search-bar">
             <img src="../booki-starter-code-master/images/icons/localisation.svg" alt="icon-localisation">
             <input type="search" placeholder="Marseille, France">
-            <button> 
-                <a href="#"> Rechercher </a> 
+
+            <button class="search-button">
+                <a href="#">
+                    <span class="search-button-text">Rechercher</span>
+                    <img src="../booki-starter-code-master/images/icons/icon-wen.svg" class="search-button-icon" alt="icone-loupe">
+                </a>
             </button>
         </form>
 
         <div class="filter-bar">
             <h4> Filtres </h4>
+            <div class="filter-container">
             <button class="filter">
                 <a href="#">
                     <img src="../booki-starter-code-master/images/icons/bank_note.svg" alt="icon-bank-note">
@@ -72,6 +77,7 @@
                     <p> Nos pépites </p>
                 </a>
             </button>
+            </div>
         </div>
 
         <div class="info-bar">
