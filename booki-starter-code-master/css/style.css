@@ -36,6 +36,10 @@ h3 {
     padding-bottom: 4px;
 }
 
+a {
+    color: black;
+}
+
 /****** Header ***********/
 
 header {
@@ -415,8 +419,17 @@ footer {
 
     /****** Info group ***********/
 
-    .filter-bar {
+    .info-group h4 {
         width: 100%;
+    }
+
+    .filter-bar {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .filter-container {
+        padding-top: 10px;
     }
 
     .filter {
@@ -425,6 +438,10 @@ footer {
 
     .filter p {
         font-size: 15px;
+    }
+
+    .info-bar {
+        padding-top: 35px;
     }
 
     /****** Main cards ***********/
@@ -469,7 +486,7 @@ footer {
     .populaires {
         width: 100%;
         height: 258px;
-        margin-top: 50px;
+        margin-top: 20px;
     }
 
     .grid-populaires {
@@ -608,7 +625,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 30px;
+    padding: 30px 30px 15px 30px;
+    margin-bottom: 0px;
 }
 
 .headline {
@@ -659,15 +677,15 @@ input {
     flex-direction: row;
     flex-wrap: wrap; /* Permet aux éléments de passer à la ligne */
     gap: 10px;
+    padding-top: 0px;
 }
 
 .filter {
     display: flex;
-    width: 162px;
+    width: 47%;
     height: 5.5vh;
     justify-content: left;
     align-items: center;
-    padding : 4px 19px 4px 19px;
     font-size: 14px;
 }
 
@@ -681,7 +699,8 @@ input {
     }
 
 .info-bar {
-    width: 335px;
+    width: 100%;
+    padding-top: 0px;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -724,15 +743,13 @@ input {
 }
 
 .grid-populaires {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     width: 100%;
 }
 
 .grid-populaires .cards {
-    width: 100%;
-}
-
-.grid-populaires {
     width: 100%;
 }
 
@@ -788,5 +805,4 @@ footer {
     margin: 20px;
     row-gap: 15px;
 }
-
 }
